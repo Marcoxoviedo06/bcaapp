@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    container_name: barrancabermeja-api
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      PORT: 3000
+      JWT_SECRET: ${JWT_SECRET:?Define JWT_SECRET en el archivo .env antes de iniciar}
+    volumes:
+      - api-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  api-data:

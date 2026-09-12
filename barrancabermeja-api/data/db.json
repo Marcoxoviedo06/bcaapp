@@ -1,0 +1,493 @@
+{
+  "users": [],
+  "favorites": [],
+  "reviews": [],
+  "categories": [
+    {
+      "id": "restaurants",
+      "name": "Restaurantes",
+      "icon": "🍽️",
+      "description": "Gastronomía local y gourmet"
+    },
+    {
+      "id": "waterparks",
+      "name": "Balnearios",
+      "icon": "🏊",
+      "description": "Piscinas y pozos naturales"
+    },
+    {
+      "id": "recreation",
+      "name": "Centros Recreacionales",
+      "icon": "🎡",
+      "description": "Diversión para toda la familia"
+    },
+    {
+      "id": "sports",
+      "name": "Deportes",
+      "icon": "⚽",
+      "description": "Aventura y actividad física"
+    },
+    {
+      "id": "nightlife",
+      "name": "Planes Nocturnos",
+      "icon": "🌙",
+      "description": "La mejor vida nocturna"
+    },
+    {
+      "id": "nature",
+      "name": "Sitios Naturales",
+      "icon": "🌿",
+      "description": "Reservas y paisajes únicos"
+    },
+    {
+      "id": "culture",
+      "name": "Cultura e Historia",
+      "icon": "🏛️",
+      "description": "Patrimonio y tradiciones"
+    }
+  ],
+  "places": [
+    {
+      "id": "la-carreta-parrilla",
+      "categoryId": "restaurants",
+      "name": "La Carreta Parrilla",
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.8,
+      "reviewCount": 312,
+      "distanceKm": 1.2,
+      "address": "Calle 35 #18-22, Centro, Barrancabermeja",
+      "latitude": 7.0653,
+      "longitude": -73.8547,
+      "schedule": "12:00 – 22:00",
+      "priceRange": "$25.000 – $60.000",
+      "phone": "+57 300 000 0001",
+      "description": "Especialistas en carnes a la brasa y platos típicos de la región. Ambiente familiar con vista al jardín. Reconocidos por el sobrebarriga y el sancocho de gallina los domingos.",
+      "tags": [
+        "Carnes",
+        "Típico",
+        "Familiar"
+      ]
+    },
+    {
+      "id": "el-cafe-del-rio",
+      "categoryId": "restaurants",
+      "name": "El Café del Río",
+      "imageUrl": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.6,
+      "reviewCount": 198,
+      "distanceKm": 0.8,
+      "address": "Malecón del Río, Barrancabermeja",
+      "latitude": 7.071,
+      "longitude": -73.855,
+      "schedule": "07:00 – 21:00",
+      "priceRange": "$12.000 – $45.000",
+      "phone": "+57 300 000 0002",
+      "description": "Restaurante-café junto al río con terraza al aire libre. Café de origen 100% colombiano, desayunos artesanales y almuerzos ejecutivos con ingredientes locales.",
+      "tags": [
+        "Café",
+        "Brunch",
+        "Terraza"
+      ]
+    },
+    {
+      "id": "sabor-santandereano",
+      "categoryId": "restaurants",
+      "name": "Sabor Santandereano",
+      "imageUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.7,
+      "reviewCount": 445,
+      "distanceKm": 2.1,
+      "address": "Carrera 28 #48-11, Barrancabermeja",
+      "latitude": 7.058,
+      "longitude": -73.86,
+      "schedule": "11:30 – 21:30",
+      "priceRange": "$20.000 – $55.000",
+      "phone": "+57 300 000 0003",
+      "description": "Auténtica cocina santandereana con cabro, mute y hormigas culonas de temporada. Un referente gastronómico de la ciudad con más de 20 años de tradición.",
+      "tags": [
+        "Santandereano",
+        "Tradicional",
+        "Cabro"
+      ]
+    },
+    {
+      "id": "balneario-1",
+      "categoryId": "waterparks",
+      "name": "Balneario 1",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.5,
+      "reviewCount": 87,
+      "distanceKm": 5.3,
+      "address": "Sector recreativo, Barrancabermeja (dato ficticio)",
+      "latitude": 7.08,
+      "longitude": -73.87,
+      "schedule": "09:00 – 18:00",
+      "priceRange": "$15.000 – $30.000",
+      "phone": "+57 300 000 0010",
+      "description": "Espacio recreativo ficticio con piscina, zonas verdes y actividades acuáticas para familias.",
+      "tags": [
+        "Piscina",
+        "Familiar",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "centro-recreativo-1",
+      "categoryId": "recreation",
+      "name": "Centro Recreativo 1",
+      "imageUrl": "https://images.unsplash.com/photo-1603190287605-e6ade32fa852?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.4,
+      "reviewCount": 64,
+      "distanceKm": 3.6,
+      "address": "Zona norte, Barrancabermeja (dato ficticio)",
+      "latitude": 7.09,
+      "longitude": -73.84,
+      "schedule": "10:00 – 19:00",
+      "priceRange": "$20.000 – $45.000",
+      "phone": "+57 300 000 0011",
+      "description": "Centro recreativo ficticio con juegos, zonas de descanso y planes para toda la familia.",
+      "tags": [
+        "Juegos",
+        "Familia",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "deporte-aventura-1",
+      "categoryId": "sports",
+      "name": "Deporte y Aventura 1",
+      "imageUrl": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.6,
+      "reviewCount": 53,
+      "distanceKm": 2.8,
+      "address": "Parque deportivo, Barrancabermeja (dato ficticio)",
+      "latitude": 7.06,
+      "longitude": -73.83,
+      "schedule": "06:00 – 20:00",
+      "priceRange": "Gratuito – $25.000",
+      "phone": "+57 300 000 0012",
+      "description": "Plan ficticio para practicar fútbol, ciclismo y actividades al aire libre con guías locales.",
+      "tags": [
+        "Aventura",
+        "Actividad física",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "plan-nocturno-1",
+      "categoryId": "nightlife",
+      "name": "Plan Nocturno 1",
+      "imageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.3,
+      "reviewCount": 102,
+      "distanceKm": 1.7,
+      "address": "Zona de entretenimiento, Barrancabermeja (dato ficticio)",
+      "latitude": 7.067,
+      "longitude": -73.852,
+      "schedule": "18:00 – 02:00",
+      "priceRange": "$20.000 – $50.000",
+      "phone": "+57 300 000 0013",
+      "description": "Lugar ficticio para música en vivo, comidas ligeras y encuentros nocturnos en la ciudad.",
+      "tags": [
+        "Música",
+        "Noche",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "sitio-natural-1",
+      "categoryId": "nature",
+      "name": "Sitio Natural 1",
+      "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.8,
+      "reviewCount": 76,
+      "distanceKm": 8.2,
+      "address": "Sendero ecológico, Barrancabermeja (dato ficticio)",
+      "latitude": 7.11,
+      "longitude": -73.88,
+      "schedule": "07:00 – 17:00",
+      "priceRange": "Gratuito",
+      "phone": "+57 300 000 0014",
+      "description": "Recorrido natural ficticio con miradores, senderos tranquilos y observación de flora local.",
+      "tags": [
+        "Naturaleza",
+        "Senderismo",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "cultura-historia-1",
+      "categoryId": "culture",
+      "name": "Cultura e Historia 1",
+      "imageUrl": "https://images.unsplash.com/photo-1564399579883-451a5d44ec08?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.5,
+      "reviewCount": 41,
+      "distanceKm": 1.1,
+      "address": "Centro histórico, Barrancabermeja (dato ficticio)",
+      "latitude": 7.064,
+      "longitude": -73.855,
+      "schedule": "09:00 – 17:00",
+      "priceRange": "$5.000 – $15.000",
+      "phone": "+57 300 000 0015",
+      "description": "Experiencia cultural ficticia para conocer relatos, arte y tradiciones de la región.",
+      "tags": [
+        "Historia",
+        "Arte",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "balneario-2",
+      "categoryId": "waterparks",
+      "name": "Balneario 2",
+      "imageUrl": "https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.3,
+      "reviewCount": 52,
+      "distanceKm": 6.1,
+      "address": "Vía recreativa, Barrancabermeja (dato ficticio)",
+      "latitude": 7.084,
+      "longitude": -73.875,
+      "schedule": "08:00 – 17:30",
+      "priceRange": "$12.000 – $28.000",
+      "phone": "+57 300 000 0016",
+      "description": "Balneario ficticio de ambiente tranquilo, con piscinas para niños y zonas de picnic.",
+      "tags": [
+        "Piscina",
+        "Picnic",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "balneario-3",
+      "categoryId": "waterparks",
+      "name": "Balneario 3",
+      "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.6,
+      "reviewCount": 93,
+      "distanceKm": 7.4,
+      "address": "Corredor turístico, Barrancabermeja (dato ficticio)",
+      "latitude": 7.095,
+      "longitude": -73.88,
+      "schedule": "09:00 – 18:30",
+      "priceRange": "$18.000 – $35.000",
+      "phone": "+57 300 000 0017",
+      "description": "Espacio acuático ficticio con toboganes, restaurante y alquiler de cabañas.",
+      "tags": [
+        "Toboganes",
+        "Cabañas",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "centro-recreativo-2",
+      "categoryId": "recreation",
+      "name": "Centro Recreativo 2",
+      "imageUrl": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.2,
+      "reviewCount": 39,
+      "distanceKm": 4.4,
+      "address": "Sector familiar, Barrancabermeja (dato ficticio)",
+      "latitude": 7.086,
+      "longitude": -73.845,
+      "schedule": "09:00 – 18:00",
+      "priceRange": "$18.000 – $40.000",
+      "phone": "+57 300 000 0018",
+      "description": "Centro ficticio con juegos de mesa, cancha múltiple y zonas de celebración.",
+      "tags": [
+        "Juegos",
+        "Cancha",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "centro-recreativo-3",
+      "categoryId": "recreation",
+      "name": "Centro Recreativo 3",
+      "imageUrl": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.7,
+      "reviewCount": 118,
+      "distanceKm": 5,
+      "address": "Zona campestre, Barrancabermeja (dato ficticio)",
+      "latitude": 7.1,
+      "longitude": -73.85,
+      "schedule": "10:00 – 20:00",
+      "priceRange": "$25.000 – $50.000",
+      "phone": "+57 300 000 0019",
+      "description": "Parque recreativo ficticio con actividades guiadas, piscina y espacios de descanso.",
+      "tags": [
+        "Parque",
+        "Piscina",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "deporte-aventura-2",
+      "categoryId": "sports",
+      "name": "Deporte y Aventura 2",
+      "imageUrl": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.4,
+      "reviewCount": 67,
+      "distanceKm": 3.2,
+      "address": "Ruta activa, Barrancabermeja (dato ficticio)",
+      "latitude": 7.072,
+      "longitude": -73.835,
+      "schedule": "06:30 – 18:00",
+      "priceRange": "$10.000 – $30.000",
+      "phone": "+57 300 000 0020",
+      "description": "Actividad ficticia de ciclismo guiado y recorridos recreativos por la ciudad.",
+      "tags": [
+        "Ciclismo",
+        "Guías",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "deporte-aventura-3",
+      "categoryId": "sports",
+      "name": "Deporte y Aventura 3",
+      "imageUrl": "https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.7,
+      "reviewCount": 81,
+      "distanceKm": 4.1,
+      "address": "Zona de aventura, Barrancabermeja (dato ficticio)",
+      "latitude": 7.078,
+      "longitude": -73.842,
+      "schedule": "07:00 – 16:30",
+      "priceRange": "$20.000 – $45.000",
+      "phone": "+57 300 000 0021",
+      "description": "Experiencia ficticia con circuito de cuerdas, escalada recreativa y entrenamiento grupal.",
+      "tags": [
+        "Escalada",
+        "Aventura",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "plan-nocturno-2",
+      "categoryId": "nightlife",
+      "name": "Plan Nocturno 2",
+      "imageUrl": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.1,
+      "reviewCount": 58,
+      "distanceKm": 2.3,
+      "address": "Zona nocturna, Barrancabermeja (dato ficticio)",
+      "latitude": 7.069,
+      "longitude": -73.85,
+      "schedule": "19:00 – 01:00",
+      "priceRange": "$15.000 – $40.000",
+      "phone": "+57 300 000 0022",
+      "description": "Espacio ficticio con presentaciones acústicas, bebidas y gastronomía local.",
+      "tags": [
+        "Acústico",
+        "Gastronomía",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "plan-nocturno-3",
+      "categoryId": "nightlife",
+      "name": "Plan Nocturno 3",
+      "imageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.6,
+      "reviewCount": 131,
+      "distanceKm": 1.9,
+      "address": "Plaza de eventos, Barrancabermeja (dato ficticio)",
+      "latitude": 7.066,
+      "longitude": -73.848,
+      "schedule": "18:30 – 02:00",
+      "priceRange": "$25.000 – $55.000",
+      "phone": "+57 300 000 0023",
+      "description": "Plan nocturno ficticio con eventos temáticos, DJ y espacio de baile.",
+      "tags": [
+        "Eventos",
+        "Baile",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "sitio-natural-2",
+      "categoryId": "nature",
+      "name": "Sitio Natural 2",
+      "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.5,
+      "reviewCount": 44,
+      "distanceKm": 9.6,
+      "address": "Reserva verde, Barrancabermeja (dato ficticio)",
+      "latitude": 7.12,
+      "longitude": -73.89,
+      "schedule": "07:30 – 16:30",
+      "priceRange": "$8.000 – $18.000",
+      "phone": "+57 300 000 0024",
+      "description": "Reserva ficticia para caminatas suaves, fotografía y talleres ambientales.",
+      "tags": [
+        "Reserva",
+        "Fotografía",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "sitio-natural-3",
+      "categoryId": "nature",
+      "name": "Sitio Natural 3",
+      "imageUrl": "https://images.unsplash.com/photo-1464278533981-50106e6176b1?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.9,
+      "reviewCount": 109,
+      "distanceKm": 10.3,
+      "address": "Mirador natural, Barrancabermeja (dato ficticio)",
+      "latitude": 7.13,
+      "longitude": -73.9,
+      "schedule": "06:00 – 17:00",
+      "priceRange": "Gratuito",
+      "phone": "+57 300 000 0025",
+      "description": "Mirador ficticio con senderos, amaneceres y actividades de educación ambiental.",
+      "tags": [
+        "Mirador",
+        "Senderos",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "cultura-historia-2",
+      "categoryId": "culture",
+      "name": "Cultura e Historia 2",
+      "imageUrl": "https://images.unsplash.com/photo-1549490349-8643362247b5?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.3,
+      "reviewCount": 36,
+      "distanceKm": 1.4,
+      "address": "Casa cultural, Barrancabermeja (dato ficticio)",
+      "latitude": 7.063,
+      "longitude": -73.853,
+      "schedule": "09:00 – 18:00",
+      "priceRange": "$5.000 – $12.000",
+      "phone": "+57 300 000 0026",
+      "description": "Casa cultural ficticia con muestras de arte, relatos de ciudad y talleres creativos.",
+      "tags": [
+        "Museo",
+        "Talleres",
+        "Ejemplo"
+      ]
+    },
+    {
+      "id": "cultura-historia-3",
+      "categoryId": "culture",
+      "name": "Cultura e Historia 3",
+      "imageUrl": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "rating": 4.6,
+      "reviewCount": 72,
+      "distanceKm": 2,
+      "address": "Ruta patrimonial, Barrancabermeja (dato ficticio)",
+      "latitude": 7.07,
+      "longitude": -73.858,
+      "schedule": "08:30 – 16:00",
+      "priceRange": "$10.000 – $20.000",
+      "phone": "+57 300 000 0027",
+      "description": "Ruta ficticia con guía, historias locales y paradas en puntos representativos.",
+      "tags": [
+        "Patrimonio",
+        "Guía",
+        "Ejemplo"
+      ]
+    }
+  ],
+  "products": []
+}
